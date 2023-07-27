@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+}
+
+#grafico {
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+
+}
+
+body {
+    background-image: url("Clima.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fondo-titulo {
+    background-color: rgb(88, 145, 179);
+    height: 50;
+    width: 50;
+    margin-bottom: 10px;
+}
+
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding: 5%;
+
+}
+
+
+.contenedor-ciudad {
+    margin-top: 50px;
+}
+
+.btn-1 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+
+}
+
+.btn-2 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-3 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-4 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-5 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-6 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-7 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-8 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.btn-9 {
+
+    border: 2px solid #575857;
+    background-color: rgb(148, 209, 245);
+    padding: 14px 28px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+
+footer.footer {
+
+    height: 80px;
+    width: 100%;
+    background-color: rgb(88, 145, 179);
+
+}
+
+p.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+@media (max-width:700px) {
+    header {
+        flex-direction:column
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor {
+        flex-direction: column;
+        background-color: blue;
+    }
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 3</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="fondo-titulo">
+            <h1 id="titulo"> Pronóstico del clima de las capitales de América del Sur</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <section>
+
+                <button class="btn-1" id="btnSantiago" type="submit">Santiago</button>
+                <button class="btn-2" id="btnBAires" type="submit">Buenos Aires</button>
+                <button class="btn-3" id="btnLima" type="submit">Lima</button>
+                <button class="btn-4" id="btnBrasilia" type="submit">Brasilia</button>
+                <button class="btn-5" id="btnQuito" type="submit">Quito</button>
+                <button class="btn-6" id="btnCaracas" type="submit">Caracas</button>
+                <button class="btn-7" id="btnLaPaz" type="submit">La Paz</button>
+                <button class="btn-8" id="btnAsuncion" type="submit">Asunción</button>
+                <button class="btn-9" id="btnMontevideo" type="submit">Montevideo</button>
+
+            </section>
+
+            <section id="grafico">
+
+                <canvas id="myChart"></canvas>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footerContainer">
+            <p class="copyright">© CLIMA 2023</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/main.js" type="module"></script>
+</body>
+
+</html>
